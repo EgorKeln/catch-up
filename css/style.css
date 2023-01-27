@@ -65,7 +65,7 @@
         content: '';
         pointer-events: all;
         width: 20.333vw;
-        height: 10.333vh;
+        height: 30.333vh;
         top: 0;
         left: 0;
         position: absolute;
@@ -75,45 +75,45 @@
     .game__body:before{
         border-radius: 50%;
         background-color: yellow;
-        animation: fly_1 6s infinite;
+        animation: fly_1 4s infinite;
     }
     .game__body:after{
         border-radius: 50%;
         background-color: blue;
-        animation: fly_2 14s infinite;
+        animation: fly_2 10s infinite;
     }
     .game__items:before{
         border-radius: 50%;
         background-color: green;
-        animation: fly_3 10s infinite;
+        animation: fly_3 6s infinite;
     }
     .game__items:after{
         border-radius: 50%;
         background-color: red;
-        animation: fly_4 22s infinite;
+        animation: fly_4 18s infinite;
     }
     @keyframes fly_1{
         25%{transform: translate(78.667vw, 0vh);}
-        50%{transform: translate(78.667vw, 88.667vh);}
-        75%{transform: translate(0vw, 88.667vh);}
+        50%{transform: translate(78.667vw, 98.667vh);}
+        75%{transform: translate(0vw, 98.667vh);}
         0%, 100%{transform: translate(0px, 0px);}
     }
     @keyframes fly_2{
-        25%{transform: translate(0vw, 88.667vh);}
+        25%{transform: translate(0vw, 98.667vh);}
         50%{transform: translate(78.667vw, 0vh);}
-        75%{transform: translate(78.667vw, 88.667vh);}
+        75%{transform: translate(78.667vw, 98.667vh);}
         0%, 100%{transform: translate(0px, 0px);}
     }
     @keyframes fly_3{
         25%{transform: translate(78.667vw, 0vh);}
-        50%{transform: translate(0vw, 88.667vh);}
-        75%{transform: translate(78.667vw, 88.667vh);}
+        50%{transform: translate(0vw, 98.667vh);}
+        75%{transform: translate(78.667vw, 98.667vh);}
         0%, 100%{transform: translate(0px, 0px);}
     }
     @keyframes fly_4{
         25%{transform: translate(78.667vw, 0vh);}
-        50%{transform: translate(0vw, 88.667vh);}
-        75%{transform: translate(78.667vw, 88.667vh);}
+        50%{transform: translate(0vw, 98.667vh);}
+        75%{transform: translate(78.667vw, 98.667vh);}
         0%, 100%{transform: translate(0px, 0px);}
     }
 
